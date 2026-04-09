@@ -2,7 +2,8 @@
   // This file is not used in compilation. It is here just for a nice editor experience.
   "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
-    "baseUrl": "."
+    // Docusaurus still inherits deprecated `baseUrl`; suppress the editor warning until upstream removes it.
+    "ignoreDeprecations": "5.0"
   },
   "exclude": [".docusaurus", "build"]
 }
