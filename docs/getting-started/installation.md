@@ -7,7 +7,7 @@ sidebar_position: 1
 How to download and install Threader on your machine.
 
 :::info
-Threader is currently in active development. Public downloads will be available soon.
+Threader is currently in active development. Public installers are published through the public `threader-docs` release mirror.
 :::
 
 ## System Requirements
@@ -17,7 +17,9 @@ Threader is currently in active development. Public downloads will be available 
 
 ## Download
 
-Installers will be available on the [Releases page](https://github.com/rondo-labs/Threader/releases) once the first public build is ready.
+Public installers are published on the [threader-docs Releases page](https://github.com/rondo-labs/threader-docs/releases/latest).
+
+The public release is mirrored automatically from the private build pipeline, so the latest installer should appear here shortly after each production release is published.
 
 ## First Launch
 
