@@ -30,7 +30,7 @@ function HomepageHeader() {
             Installation Guide
           </Link>
         </div>
-        <p className={styles.meta}>macOS 12+ available now. Windows support is coming soon.</p>
+        <p className={styles.meta}>Available for macOS 12+ and Windows 10+ (64-bit).</p>
       </div>
     </header>
   );

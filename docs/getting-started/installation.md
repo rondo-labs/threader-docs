@@ -13,7 +13,7 @@ Threader is currently in active development. Public installers are published thr
 ## System Requirements
 
 - **macOS** 12+ (Apple Silicon & Intel)
-- **Windows** 10+ (64-bit) *(coming soon)*
+- **Windows** 10+ (64-bit)
 
 ## Download
 
