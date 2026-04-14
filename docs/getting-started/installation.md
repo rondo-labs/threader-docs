@@ -26,6 +26,8 @@ The public release is mirrored automatically from the private build pipeline, so
 1. Open Threader
 2. Create a new project (`.threader` file)
 3. Import your match video
-4. Start annotating!
+4. Add match metadata and roster information when available
+5. Set up whistle sync before final export
+6. Start annotating
 
 See the [Quick Start Guide](./quick-start) for a step-by-step walkthrough.

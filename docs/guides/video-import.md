@@ -6,6 +6,4 @@ sidebar_position: 1
 
 How to import and manage video files in Threader.
 
-:::note
-Detailed content coming soon.
-:::
+This page has moved to [Import Video](../workflows/import-video).

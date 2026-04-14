@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Threader',
-  tagline: 'Football video annotation tool for coaches and analysts',
+  tagline: 'Documentation for the football video analysis workspace',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -59,10 +59,10 @@ const config: Config = {
     },
     navbar: {
       title: 'Threader',
-      // logo: {
-      //   alt: 'Threader Logo',
-      //   src: 'img/logo.svg',
-      // },
+      logo: {
+        alt: 'Threader logo',
+        src: 'img/logo.svg',
+      },
       items: [
         {
           type: 'docSidebar',
@@ -70,7 +70,9 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/docs/workflows/annotate-events', label: 'Workflows', position: 'left'},
+        {to: '/docs/reference/keyboard-shortcuts', label: 'Reference', position: 'left'},
+        {to: '/blog', label: 'Release Notes', position: 'left'},
         {
           href: 'https://github.com/rondo-labs/threader-docs',
           label: 'GitHub',
@@ -86,29 +88,50 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/docs/getting-started/installation',
+              to: '/docs/getting-started/quick-start',
             },
             {
-              label: 'Guides',
-              to: '/docs/guides/event-annotation',
+              label: 'Core Concepts',
+              to: '/docs/category/core-concepts',
+            },
+            {
+              label: 'Workflows',
+              to: '/docs/workflows/annotate-events',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Reference',
           items: [
             {
-              label: 'Blog',
+              label: 'Keyboard Shortcuts',
+              to: '/docs/reference/keyboard-shortcuts',
+            },
+            {
+              label: 'CDF Overview',
+              to: '/docs/reference/cdf-overview',
+            },
+            {
+              label: 'Troubleshooting',
+              to: '/docs/reference/troubleshooting',
+            },
+          ],
+        },
+        {
+          title: 'Project',
+          items: [
+            {
+              label: 'Release Notes',
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/rondo-labs/threader-docs',
+              label: 'Download',
+              href: 'https://github.com/rondo-labs/threader-docs/releases/latest',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Rondo Labs. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Rondo Labs.`,
     },
     prism: {
       theme: prismThemes.github,

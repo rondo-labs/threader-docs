@@ -14,11 +14,15 @@ Launch Threader and create a new project. Each project is stored as a `.threader
 
 Import your match video via the video panel. Threader supports common formats (MP4, MOV, MKV).
 
-## 3. Set Up Whistle Sync
+## 3. Add Match Context
+
+Add match metadata, teams, and players if you have them. This makes event tagging and export validation easier later.
+
+## 4. Set Up Whistle Sync
 
 Whistle sync bridges video playback time to real-world UTC timestamps, which is required for CDF compliance. Mark the key moments (kick-off, half-time, etc.) to establish the time mapping.
 
-## 4. Start Annotating
+## 5. Start Annotating
 
 Use keyboard shortcuts to tag events as you watch:
 
@@ -26,6 +30,17 @@ Use keyboard shortcuts to tag events as you watch:
 - Default values are pre-filled for speed
 - Press **Enter** to confirm
 
-## 5. Export
+## 6. Review the Timeline
+
+Use the timeline to inspect events, filter dense passages, and correct missing fields before export.
+
+## 7. Export
 
 Export your annotations as CDF-compliant JSONL for use in analysis tools and pipelines.
+
+## Keep Going
+
+- [Understand projects](../core-concepts/projects)
+- [Sync match time](../workflows/sync-match-time)
+- [Annotate events](../workflows/annotate-events)
+- [Export CDF](../workflows/export-cdf)

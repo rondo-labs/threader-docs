@@ -1,34 +1,65 @@
 /**
- * Threader dark theme — matches the app's visual identity.
- * Color tokens from CLAUDE.md UI Color Tokens.
+ * Threader documentation theme.
  */
 
 :root {
-  --ifm-color-primary: #58A6FF;
-  --ifm-color-primary-dark: #3d96ff;
-  --ifm-color-primary-darker: #2f8eff;
-  --ifm-color-primary-darkest: #0a74ff;
-  --ifm-color-primary-light: #73b6ff;
-  --ifm-color-primary-lighter: #81beff;
-  --ifm-color-primary-lightest: #acd4ff;
+  --ifm-color-primary: #2c9b47;
+  --ifm-color-primary-dark: #278b40;
+  --ifm-color-primary-darker: #25843d;
+  --ifm-color-primary-darkest: #1f6d32;
+  --ifm-color-primary-light: #32ad50;
+  --ifm-color-primary-lighter: #3ab958;
+  --ifm-color-primary-lightest: #5fc978;
   --ifm-code-font-size: 95%;
+  --ifm-global-radius: 8px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme='dark'] {
-  --ifm-background-color: #0D1117;
-  --ifm-background-surface-color: #161B22;
-  --ifm-color-primary: #58A6FF;
-  --ifm-color-primary-dark: #3d96ff;
-  --ifm-color-primary-darker: #2f8eff;
-  --ifm-color-primary-darkest: #0a74ff;
-  --ifm-color-primary-light: #73b6ff;
-  --ifm-color-primary-lighter: #81beff;
-  --ifm-color-primary-lightest: #acd4ff;
-  --ifm-navbar-background-color: #161B22;
-  --ifm-footer-background-color: #0D1117;
-  --ifm-color-emphasis-300: #30363D;
-  --ifm-font-color-base: #F0F6FC;
-  --ifm-font-color-secondary: #8B949E;
+  --ifm-background-color: #111310;
+  --ifm-background-surface-color: #181b16;
+  --ifm-color-primary: #3ecc5f;
+  --ifm-color-primary-dark: #32bb52;
+  --ifm-color-primary-darker: #2fb14d;
+  --ifm-color-primary-darkest: #279240;
+  --ifm-color-primary-light: #59d476;
+  --ifm-color-primary-lighter: #67d982;
+  --ifm-color-primary-lightest: #91e5a5;
+  --ifm-navbar-background-color: #161812;
+  --ifm-footer-background-color: #111310;
+  --ifm-color-emphasis-100: #20241d;
+  --ifm-color-emphasis-200: #2b3028;
+  --ifm-color-emphasis-300: #3a4036;
+  --ifm-font-color-base: #f6f6ea;
+  --ifm-font-color-secondary: #b8bdac;
+  --ifm-heading-color: #f6f6ea;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.navbar__logo img {
+  border-radius: 6px;
+}
+
+.navbar__link,
+.menu__link,
+.table-of-contents__link {
+  letter-spacing: 0;
+}
+
+.button,
+.pagination-nav__link,
+.theme-doc-sidebar-menu .menu__link {
+  border-radius: 8px;
+}
+
+.theme-doc-markdown {
+  --ifm-heading-font-weight: 800;
+}
+
+.theme-doc-markdown h1 {
+  letter-spacing: 0;
 }

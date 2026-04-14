@@ -6,6 +6,4 @@ sidebar_position: 6
 
 How to export your annotations in CDF-compliant format.
 
-:::note
-Detailed content coming soon.
-:::
+This page has moved to [Export CDF](../workflows/export-cdf).

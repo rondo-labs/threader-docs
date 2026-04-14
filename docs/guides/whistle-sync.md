@@ -6,6 +6,4 @@ sidebar_position: 2
 
 How to synchronize video playback time with real-world UTC timestamps.
 
-:::note
-Detailed content coming soon.
-:::
+This page has moved to [Sync Match Time](../workflows/sync-match-time).

@@ -6,6 +6,4 @@ sidebar_position: 4
 
 How to use the timeline panel to navigate, review, and manage annotations.
 
-:::note
-Detailed content coming soon.
-:::
+This page has moved to [Timeline](../features/timeline).

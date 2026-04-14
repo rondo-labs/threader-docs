@@ -5,21 +5,21 @@ slug: /
 
 # Welcome to Threader
 
-**Threader** is a desktop football video annotation tool built for coaches and analysts.
+**Threader** is a desktop football video analysis workspace for coaches and analysts. It brings video review, event annotation, tactical drawings, clips, roster data, provider imports, and CDF export into one local project.
 
 ## What is Threader?
 
-Threader lets you tag, annotate, and analyze football match footage with a keyboard-first workflow. Every annotation follows the [Common Data Format (CDF)](https://www.cdf.football/) standard, ensuring your data is interoperable and future-proof.
+Threader helps you move from match footage to structured football analysis. Import a video, sync match time, tag events, draw tactical notes, build clips, and export data that follows the [Common Data Format (CDF)](https://www.cdf.football/) standard.
 
-## Key Features
+## What You Can Do
 
-- **Full-bleed video player** — Frameless dark interface with edge-to-edge video playback
-- **Keyboard-first annotation** — Every event type has a shortcut. Zero-click flow: shortcut → defaults → Enter
-- **CDF-native** — All annotations map 1:1 to CDF Event Data schema (v0.2.3)
-- **Whistle sync** — Bridge video playback time to UTC timestamps for CDF compliance
-- **Timeline** — Visual event timeline with tracks for navigating and reviewing annotations
-- **Cinema Mode** — Press `~` to hide all chrome and focus on the video
-- **Export** — CDF-compliant JSONL export with built-in validation
+- Keep the video central while panels dock around it
+- Annotate events with a keyboard-first flow
+- Map video playback time to match time with whistle sync
+- Manage teams, players, lineups, clips, playlists, and drawings
+- Import provider data from supported adapters
+- Export CDF-ready data and review validation feedback
+- Create video clips and playlists for coaching review
 
 ## Who is it for?
 
@@ -29,5 +29,8 @@ Threader lets you tag, annotate, and analyze football match footage with a keybo
 
 ## Next Steps
 
-- [Install Threader](/docs/getting-started/installation)
-- [Quick Start Guide](/docs/getting-started/quick-start)
+- [Install Threader](./getting-started/installation)
+- [Follow the quick start](./getting-started/quick-start)
+- [Learn the project model](./core-concepts/projects)
+- [Annotate events](./workflows/annotate-events)
+- [Export CDF data](./workflows/export-cdf)
