@@ -11,8 +11,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://threader-docs.vercel.app',
-  baseUrl: '/',
+  url: 'https://rondo-labs.github.io',
+  baseUrl: '/threader-docs/',
 
   organizationName: 'rondo-labs',
   projectName: 'threader-docs',

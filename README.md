@@ -22,7 +22,9 @@ Threader helps you tag, annotate, and analyze match footage with a keyboard-firs
 
 ## Documentation
 
-Browse the full documentation at **[threader-docs.vercel.app](https://threader-docs.vercel.app)**.
+Browse the full documentation at **[rondo-labs.github.io/threader-docs](https://rondo-labs.github.io/threader-docs/)**.
+
+The site is deployed to GitHub Pages through GitHub Actions.
 
 ## Feedback & Issues
 
