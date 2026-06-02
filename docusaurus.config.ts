@@ -70,8 +70,9 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/docs/workflows/annotate-events', label: 'Workflows', position: 'left'},
-        {to: '/docs/reference/keyboard-shortcuts', label: 'Reference', position: 'left'},
+        {to: '/docs/start/quick-start', label: 'Start', position: 'left'},
+        {to: '/docs/workflows/timeline-basics', label: 'Workflows', position: 'left'},
+        {to: '/docs/keyboard/command-palette', label: 'Keyboard', position: 'left'},
         {to: '/blog', label: 'Release Notes', position: 'left'},
         {
           href: 'https://github.com/rondo-labs/threader-docs',
@@ -87,16 +88,16 @@ const config: Config = {
           title: 'Documentation',
           items: [
             {
-              label: 'Getting Started',
-              to: '/docs/getting-started/quick-start',
+              label: 'Quick Start',
+              to: '/docs/start/quick-start',
             },
             {
-              label: 'Core Concepts',
-              to: '/docs/category/core-concepts',
+              label: 'Create First Clip',
+              to: '/docs/start/create-first-clip',
             },
             {
-              label: 'Workflows',
-              to: '/docs/workflows/annotate-events',
+              label: 'Timeline Basics',
+              to: '/docs/workflows/timeline-basics',
             },
           ],
         },
@@ -104,8 +105,8 @@ const config: Config = {
           title: 'Reference',
           items: [
             {
-              label: 'Keyboard Shortcuts',
-              to: '/docs/reference/keyboard-shortcuts',
+              label: 'Command Palette',
+              to: '/docs/keyboard/command-palette',
             },
             {
               label: 'CDF Overview',
@@ -113,7 +114,7 @@ const config: Config = {
             },
             {
               label: 'Troubleshooting',
-              to: '/docs/reference/troubleshooting',
+              to: '/docs/troubleshooting/video-import-issues',
             },
           ],
         },

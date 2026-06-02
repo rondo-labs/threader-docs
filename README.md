@@ -1,8 +1,8 @@
 # Threader
 
-**Desktop football video annotation tool for coaches and analysts.**
+**Desktop football analysis workspace for coaches and analysts.**
 
-Threader helps you tag, annotate, and analyze match footage with a keyboard-first workflow. Every annotation follows the [Common Data Format (CDF)](https://www.cdf.football/) standard — your data is structured, interoperable, and ready for downstream analysis.
+Threader helps you move from match footage to clips, tactical annotations, review playlists, and collaboration material. CDF export remains supported, but the documentation is organized around the full analysis workflow rather than export alone.
 
 ## Who is Threader for?
 
@@ -13,18 +13,75 @@ Threader helps you tag, annotate, and analyze match footage with a keyboard-firs
 ## Features
 
 - Full-bleed video player with a deep dark interface
-- Keyboard-first annotation — every event type has a shortcut
-- CDF-native data model (v0.2.3) with built-in validation
-- Whistle sync — bridge video time to real-world UTC timestamps
-- Visual timeline for navigating and reviewing annotations
+- Keyboard-first review and command palette workflows
+- Timeline for navigating video, events, clips, and annotations
+- Clip creation from time ranges or events
+- Tactical annotations for structured football meaning
+- Playlists for coaching review
+- Workspace and feed collaboration
+- CDF export for downstream analysis
 - Cinema Mode — hide all chrome and focus on the video
-- CDF-compliant JSONL export
 
 ## Documentation
 
 Browse the full documentation at **[rondo-labs.github.io/threader-docs](https://rondo-labs.github.io/threader-docs/)**.
 
 The site is deployed to GitHub Pages through GitHub Actions.
+
+## Documentation Structure
+
+The English docs are the canonical source. The docs are structured by user job:
+
+```text
+docs/
+  start/
+  workflows/
+  concepts/
+  keyboard/
+  troubleshooting/
+  reference/
+```
+
+The intended product loop is:
+
+```text
+Project -> Video -> Event / Time Range -> Clip -> Tactical Annotation -> Playlist / Review -> Feed
+```
+
+Keep first-use material focused on this loop. CDF, provider imports, and export details belong in advanced workflows or reference pages unless the user explicitly needs them.
+
+## Localization Plan
+
+Default language: English.
+
+Planned supported locales:
+
+- English: default docs tree
+- Chinese: `zh`
+- Spanish: `es`
+
+English pages should be written first with stable slugs. Chinese and Spanish translations should keep the same page IDs and sidebar order so the app can deep-link to locale-aware Help pages.
+
+## App Help Topic Map
+
+Future in-app Help should link to stable docs pages instead of duplicating long-form content inside React components.
+
+Initial topic map:
+
+| Help topic | English docs page |
+| --- | --- |
+| `quick-start` | `/docs/start/quick-start` |
+| `create-project` | `/docs/start/create-or-open-project` |
+| `import-video` | `/docs/start/import-match-video` |
+| `import-events` | `/docs/start/import-event-data` |
+| `create-clip` | `/docs/start/create-first-clip` |
+| `timeline-basics` | `/docs/workflows/timeline-basics` |
+| `tactical-annotation` | `/docs/workflows/add-tactical-annotations` |
+| `playlist-review` | `/docs/workflows/build-review-playlists` |
+| `publish-feed` | `/docs/workflows/publish-to-feed` |
+| `command-palette` | `/docs/keyboard/command-palette` |
+| `keyboard-shortcuts` | `/docs/reference/keyboard-shortcut-index` |
+| `troubleshooting-video` | `/docs/troubleshooting/video-import-issues` |
 
 ## Feedback & Issues
 
