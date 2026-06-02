@@ -4,7 +4,9 @@ title: Draw Tactical Notes
 
 # Draw Tactical Notes
 
-Tactical drawings help explain shape, movement, pressure, spacing, and decisions around a match moment.
+Use this when the video needs visual explanation.
+
+Tactical drawings help explain shape, movement, pressure, spacing, and decisions around a match moment. Use them when a coach or player needs to see the idea, not only read it.
 
 ## Common Uses
 
@@ -18,10 +20,17 @@ Tactical drawings help explain shape, movement, pressure, spacing, and decisions
 
 Threader supports drawing keyframes, so an annotation can be tied to a specific moment in the video. Use keyframes when the drawing should appear at a precise time rather than across a broad segment.
 
-## Workflow
+## Steps
 
 1. Pause at the relevant frame.
 2. Open the drawing tools.
 3. Add the tactical elements you need.
 4. Link the drawing to a clip if it belongs in a review package.
 5. Scrub the video to confirm that the drawing appears when expected.
+
+## Best Practices
+
+- Keep one clear idea per drawing.
+- Use labels only when they reduce ambiguity.
+- Pair drawings with clips when preparing coaching review.
+- Use tactical annotations when the same moment also needs structured football meaning.

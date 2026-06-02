@@ -6,36 +6,36 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
-const downloadUrl = 'https://github.com/rondo-labs/threader-docs/releases/latest';
-
 const learningPaths = [
   {
-    title: 'Start a match project',
-    description: 'Install Threader, create a project, import footage, and prepare your first analysis session.',
-    to: '/docs/getting-started/quick-start',
+    title: 'Start match analysis',
+    description: 'Create a project, import match video, bring in events when available, and save your first clip.',
+    to: '/docs/start/quick-start',
     label: 'Open quick start',
   },
   {
-    title: 'Annotate with speed',
-    description: 'Use keyboard-first event tagging, timeline review, player links, and validation checks.',
-    to: '/docs/workflows/annotate-events',
-    label: 'Learn annotation',
+    title: 'Build review material',
+    description: 'Create clips from time ranges or events, add tactical meaning, and organize playlists for review.',
+    to: '/docs/workflows/build-review-playlists',
+    label: 'Build playlists',
   },
   {
-    title: 'Export analysis data',
-    description: 'Set up match time, validate records, and export CDF-ready football event data.',
-    to: '/docs/workflows/export-cdf',
-    label: 'Prepare export',
+    title: 'Share with staff',
+    description: 'Understand workspaces and feed so local analysis becomes clear team discussion when it is ready.',
+    to: '/docs/workflows/publish-to-feed',
+    label: 'Publish to feed',
   },
 ];
 
 const referenceLinks = [
-  ['Projects', '/docs/core-concepts/projects'],
-  ['Video and time', '/docs/core-concepts/video-and-time'],
-  ['Events and CDF', '/docs/core-concepts/events-and-cdf'],
-  ['Clips and playlists', '/docs/core-concepts/clips-and-playlists'],
+  ['Projects', '/docs/concepts/projects'],
+  ['Video and match time', '/docs/concepts/video-and-match-time'],
+  ['Events and CDF', '/docs/concepts/events-and-cdf'],
+  ['Clips', '/docs/concepts/clips'],
+  ['Tactical annotations', '/docs/concepts/tactical-annotations'],
+  ['Workspace and feed', '/docs/concepts/workspace-and-feed'],
   ['Import providers', '/docs/reference/import-providers'],
-  ['Troubleshooting', '/docs/reference/troubleshooting'],
+  ['Troubleshooting', '/docs/troubleshooting/video-import-issues'],
 ];
 
 function HomepageHeader() {
@@ -48,15 +48,15 @@ function HomepageHeader() {
           <span>Threader Docs</span>
         </div>
         <Heading as="h1" className={styles.title}>
-          Learn the football analysis workspace.
+          Start real football analysis faster.
         </Heading>
-        <p className={styles.subtitle}>{siteConfig.tagline}. Move from match footage to CDF data, clips, tactical notes, and review material.</p>
+        <p className={styles.subtitle}>{siteConfig.tagline}. Move from project to video, clips, tactical annotations, review playlists, and feed discussion.</p>
         <div className={styles.actions}>
-          <Link className={styles.primaryButton} to="/docs/getting-started/quick-start">
+          <Link className={styles.primaryButton} to="/docs/start/quick-start">
             Start learning
           </Link>
-          <Link className={styles.secondaryButton} href={downloadUrl}>
-            Download latest release
+          <Link className={styles.secondaryButton} to="/docs/keyboard/command-palette">
+            Open help map
           </Link>
         </div>
         <p className={styles.meta}>macOS 12+ and Windows 10+ (64-bit)</p>
@@ -79,10 +79,10 @@ function HomepageHeader() {
             <div className={styles.playhead}>Match video</div>
           </div>
           <div className={styles.sidePane}>
-            <strong>Annotation</strong>
-            <span>Pass</span>
-            <span>Player 8</span>
-            <span>CDF ready</span>
+            <strong>Review flow</strong>
+            <span>Clip</span>
+            <span>Tactical meaning</span>
+            <span>Playlist</span>
           </div>
         </div>
         <div className={styles.timeline}>
@@ -107,7 +107,7 @@ export default function Home(): ReactNode {
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <p className={styles.eyebrow}>Learning paths</p>
-            <Heading as="h2">Choose the next job to do</Heading>
+            <Heading as="h2">Choose the job you need to do</Heading>
           </div>
           <div className={styles.pathGrid}>
             {learningPaths.map((path) => (

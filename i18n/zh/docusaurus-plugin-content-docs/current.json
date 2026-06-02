@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Start": {
+    "message": "开始",
+    "description": "The label for category 'Start' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Start.link.generated-index.title": {
+    "message": "开始使用 Threader",
+    "description": "The generated-index page title for category 'Start' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Core Workflows": {
+    "message": "核心工作流",
+    "description": "The label for category 'Core Workflows' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Core Workflows.link.generated-index.title": {
+    "message": "核心工作流",
+    "description": "The generated-index page title for category 'Core Workflows' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Concepts": {
+    "message": "核心概念",
+    "description": "The label for category 'Concepts' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Concepts.link.generated-index.title": {
+    "message": "核心概念",
+    "description": "The generated-index page title for category 'Concepts' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Keyboard": {
+    "message": "键盘操作",
+    "description": "The label for category 'Keyboard' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Keyboard.link.generated-index.title": {
+    "message": "键盘操作",
+    "description": "The generated-index page title for category 'Keyboard' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Troubleshooting": {
+    "message": "问题排查",
+    "description": "The label for category 'Troubleshooting' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Troubleshooting.link.generated-index.title": {
+    "message": "问题排查",
+    "description": "The generated-index page title for category 'Troubleshooting' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference": {
+    "message": "参考资料",
+    "description": "The label for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference.link.generated-index.title": {
+    "message": "参考资料",
+    "description": "The generated-index page title for category 'Reference' in sidebar 'docsSidebar'"
+  }
+}
