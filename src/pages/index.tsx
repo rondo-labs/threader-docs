@@ -1,5 +1,6 @@
 import type {ReactNode} from 'react';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
@@ -40,11 +41,13 @@ const referenceLinks = [
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  const logoUrl = useBaseUrl('/img/logo.svg');
+
   return (
     <header className={styles.hero}>
       <div className={styles.heroCopy}>
         <div className={styles.logoLine}>
-          <img src="/img/logo.svg" alt="" className={styles.logoMark} />
+          <img src={logoUrl} alt="" className={styles.logoMark} />
           <span>Threader Docs</span>
         </div>
         <Heading as="h1" className={styles.title}>
