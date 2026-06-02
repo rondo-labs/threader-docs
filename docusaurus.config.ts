@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Threader',
   tagline: 'Documentation for the football video analysis workspace',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   future: {
     v4: true,
@@ -68,7 +68,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/threader-icon-rounded.png',
+    image: 'img/threader-icon-transparent.png',
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: true,
@@ -78,7 +78,7 @@ const config: Config = {
       title: 'Threader',
       logo: {
         alt: 'Threader logo',
-        src: 'img/threader-icon-rounded.png',
+        src: 'img/logo.svg',
       },
       items: [
         {
