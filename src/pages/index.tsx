@@ -44,7 +44,7 @@ function HomepageHeader() {
     <header className={styles.hero}>
       <div className={styles.heroCopy}>
         <div className={styles.logoLine}>
-          <img src="/img/logo.svg" alt="" className={styles.logoMark} />
+          <img src="/img/threader-icon-rounded.png" alt="" className={styles.logoMark} />
           <span>Threader Docs</span>
         </div>
         <Heading as="h1" className={styles.title}>

@@ -68,7 +68,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/threader-icon-rounded.png',
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: true,
@@ -78,7 +78,7 @@ const config: Config = {
       title: 'Threader',
       logo: {
         alt: 'Threader logo',
-        src: 'img/logo.svg',
+        src: 'img/threader-icon-rounded.png',
       },
       items: [
         {
