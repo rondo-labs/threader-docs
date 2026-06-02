@@ -21,7 +21,24 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'zh', 'es'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+      zh: {
+        label: '中文',
+        direction: 'ltr',
+        htmlLang: 'zh-CN',
+      },
+      es: {
+        label: 'Español',
+        direction: 'ltr',
+        htmlLang: 'es',
+      },
+    },
   },
 
   presets: [
@@ -74,6 +91,10 @@ const config: Config = {
         {to: '/docs/workflows/timeline-basics', label: 'Workflows', position: 'left'},
         {to: '/docs/keyboard/command-palette', label: 'Keyboard', position: 'left'},
         {to: '/blog', label: 'Release Notes', position: 'left'},
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
         {
           href: 'https://github.com/rondo-labs/threader-docs',
           label: 'GitHub',

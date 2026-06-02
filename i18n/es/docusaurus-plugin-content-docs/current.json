@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Start": {
+    "message": "Inicio",
+    "description": "The label for category 'Start' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Start.link.generated-index.title": {
+    "message": "Empieza con Threader",
+    "description": "The generated-index page title for category 'Start' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Core Workflows": {
+    "message": "Flujos principales",
+    "description": "The label for category 'Core Workflows' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Core Workflows.link.generated-index.title": {
+    "message": "Flujos principales",
+    "description": "The generated-index page title for category 'Core Workflows' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Concepts": {
+    "message": "Conceptos",
+    "description": "The label for category 'Concepts' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Concepts.link.generated-index.title": {
+    "message": "Conceptos",
+    "description": "The generated-index page title for category 'Concepts' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Keyboard": {
+    "message": "Teclado",
+    "description": "The label for category 'Keyboard' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Keyboard.link.generated-index.title": {
+    "message": "Teclado",
+    "description": "The generated-index page title for category 'Keyboard' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Troubleshooting": {
+    "message": "Solución de problemas",
+    "description": "The label for category 'Troubleshooting' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Troubleshooting.link.generated-index.title": {
+    "message": "Solución de problemas",
+    "description": "The generated-index page title for category 'Troubleshooting' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference": {
+    "message": "Referencia",
+    "description": "The label for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference.link.generated-index.title": {
+    "message": "Referencia",
+    "description": "The generated-index page title for category 'Reference' in sidebar 'docsSidebar'"
+  }
+}

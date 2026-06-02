@@ -1,0 +1,50 @@
+{
+  "link.title.Documentation": {
+    "message": "Documentación",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.Reference": {
+    "message": "Referencia",
+    "description": "The title of the footer links column with title=Reference in the footer"
+  },
+  "link.title.Project": {
+    "message": "Proyecto",
+    "description": "The title of the footer links column with title=Project in the footer"
+  },
+  "link.item.label.Quick Start": {
+    "message": "Inicio rápido",
+    "description": "The label of footer link with label=Quick Start linking to /docs/start/quick-start"
+  },
+  "link.item.label.Create First Clip": {
+    "message": "Crear el primer clip",
+    "description": "The label of footer link with label=Create First Clip linking to /docs/start/create-first-clip"
+  },
+  "link.item.label.Timeline Basics": {
+    "message": "Conceptos básicos del timeline",
+    "description": "The label of footer link with label=Timeline Basics linking to /docs/workflows/timeline-basics"
+  },
+  "link.item.label.Command Palette": {
+    "message": "Paleta de comandos",
+    "description": "The label of footer link with label=Command Palette linking to /docs/keyboard/command-palette"
+  },
+  "link.item.label.CDF Overview": {
+    "message": "Resumen de CDF",
+    "description": "The label of footer link with label=CDF Overview linking to /docs/reference/cdf-overview"
+  },
+  "link.item.label.Troubleshooting": {
+    "message": "Solución de problemas",
+    "description": "The label of footer link with label=Troubleshooting linking to /docs/troubleshooting/video-import-issues"
+  },
+  "link.item.label.Release Notes": {
+    "message": "Notas de versión",
+    "description": "The label of footer link with label=Release Notes linking to /blog"
+  },
+  "link.item.label.Download": {
+    "message": "Descargar",
+    "description": "The label of footer link with label=Download linking to https://github.com/rondo-labs/threader-docs/releases/latest"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 Rondo Labs.",
+    "description": "The footer copyright"
+  }
+}

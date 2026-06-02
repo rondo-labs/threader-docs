@@ -62,6 +62,26 @@ Planned supported locales:
 
 English pages should be written first with stable slugs. Chinese and Spanish translations should keep the same page IDs and sidebar order so the app can deep-link to locale-aware Help pages.
 
+Translation files live in:
+
+```text
+i18n/
+  zh/
+    code.json
+    docusaurus-theme-classic/
+    docusaurus-plugin-content-docs/
+      current.json
+      current/
+  es/
+    code.json
+    docusaurus-theme-classic/
+    docusaurus-plugin-content-docs/
+      current.json
+      current/
+```
+
+Until translated docs are added under `i18n/<locale>/docusaurus-plugin-content-docs/current/`, Docusaurus falls back to the English pages while still exposing locale routes and localized navigation labels.
+
 ## App Help Topic Map
 
 Future in-app Help should link to stable docs pages instead of duplicating long-form content inside React components.

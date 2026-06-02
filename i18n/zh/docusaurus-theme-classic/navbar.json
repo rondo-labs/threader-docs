@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "Threader",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Threader 标志",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Start": {
+    "message": "开始",
+    "description": "Navbar item with label Start"
+  },
+  "item.label.Workflows": {
+    "message": "工作流",
+    "description": "Navbar item with label Workflows"
+  },
+  "item.label.Keyboard": {
+    "message": "键盘",
+    "description": "Navbar item with label Keyboard"
+  },
+  "item.label.Release Notes": {
+    "message": "发布说明",
+    "description": "Navbar item with label Release Notes"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
