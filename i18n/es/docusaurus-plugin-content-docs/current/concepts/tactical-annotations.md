@@ -35,4 +35,4 @@ Adjunta tactical annotations a:
 
 ## Regla práctica
 
-Usa tactical annotations cuando la pregunta sea "qué significa este momento?" y no solo "qué pasó?"
+Usa tactical annotations cuando la pregunta sea "¿qué significa este momento?" y no solo "¿qué pasó?"

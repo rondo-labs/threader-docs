@@ -17,7 +17,7 @@ Usa esto cuando un video no se importa, carga o reproduce correctamente.
 
 ## Formato recomendado
 
-Si un archivo no es fiable, transcódalo a MP4 H.264 e importa esa versión.
+Si un archivo no es fiable, transcodifícalo a MP4 H.264 e importa esa versión.
 
 ## Relacionado
 

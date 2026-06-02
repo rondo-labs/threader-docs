@@ -24,7 +24,7 @@ Un proyecto es el contenedor local de análisis. Guarda el video del partido, ev
 
 Antes de hacer análisis detallado, importa el video principal del partido. Cuando el video esté disponible, usa el reproductor y el timeline para moverte por el partido.
 
-Si Threader no puede leer el archivo de forma estable, transcódalo a un MP4 H.264 estándar e importa esa versión.
+Si Threader no puede leer el archivo de forma estable, transcodifícalo a un MP4 H.264 estándar e importa esa versión.
 
 ## 3. Importa o crea eventos
 

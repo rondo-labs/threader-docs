@@ -8,7 +8,7 @@ slug: /keyboard/command-palette
 
 Usa esto cuando sabes qué quieres hacer, pero no recuerdas dónde está el control.
 
-La paleta de comandos es la forma más rápida de encontrar acciones, abrir temas de Help y moverte por Threader sin buscar por paneles.
+La paleta de comandos es la forma más rápida de encontrar acciones, abrir temas de ayuda y moverte por Threader sin buscar por paneles.
 
 ## Usos comunes
 
@@ -16,7 +16,7 @@ La paleta de comandos es la forma más rápida de encontrar acciones, abrir tema
 - crear un clip desde la selección actual
 - abrir acciones del timeline
 - abrir atajos de teclado
-- abrir Getting Started
+- abrir la guía de inicio
 - encontrar acciones de workspace o feed
 
 ## Regla práctica

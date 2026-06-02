@@ -16,7 +16,7 @@ slug: /keyboard/command-palette
 - 从当前选择创建 clip
 - 打开 timeline 动作
 - 打开键盘快捷键
-- 打开 Getting Started
+- 打开入门指南
 - 查找 workspace 或 feed 动作
 
 ## 实用规则
